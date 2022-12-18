@@ -1,0 +1,185 @@
+{
+  "halt_code": [
+    {
+      "code": "T1",
+      "desc": "Halt - News Pending",
+      "detail": "Trading is halted pending the release of material news."
+    },
+    {
+      "code": "T2",
+      "desc": "Halt - News Released",
+      "detail": "The news has begun the dissemination process through a Regulation FD compliant method(s)."
+    },
+    {
+      "code": "T5",
+      "desc": "Single Stock Trading Pause in Effect",
+      "detail": "Trading has been paused by NASDAQ due to a 10% or more price move in the security in a five-minute period."
+    },
+    {
+      "code": "T6",
+      "desc": "Halt - Extraordinary Market Activity",
+      "detail": "Trading is halted when extraordinary market activity in the security is occurring; NASDAQ determines that such extraordinary market activity is likely to have a material effect on the market for that security; and 1) NASDAQ believes that such extraordinary market activity is caused by the misuse or malfunction of an electronic quotation, communication, reporting or execution system operated by or linked to NASDAQ; or 2) after consultation with either a national securities exchange trading the security on an unlisted trading privileges basis or a non-NASDAQ FINRA facility trading the security, NASDAQ believes such extraordinary market activity is caused by the misuse or malfunction of an electronic quotation, communication, reporting or execution system operated by or linked to such national securities exchange or non- NASDAQ FINRA facility."
+    },
+    {
+      "code": "T8",
+      "desc": "Halt - Exchange-Traded-Fund (ETF)",
+      "detail": "Trading is halted in an ETF due to the consideration of, among other factors: 1) the extent to which trading has ceased in the underlying security(s); 2) whether trading has been halted or suspended in the primary market(s) for any combination of underlying securities accounting for 20% or more of the applicable current index group value; 3) the presence of other unusual conditions or circumstances deemed to be detrimental to the maintenance of a fair and orderly market."
+    },
+    {
+      "code": "T12",
+      "desc": "Halt - Additional Information Requested by NASDAQ",
+      "detail": "Trading is halted pending receipt of additional information requested by NASDAQ."
+    },
+    {
+      "code": "H4",
+      "desc": "Halt - Non-compliance",
+      "detail": "Trading is halted due to the company's non-compliance with NASDAQ listing requirements."
+    },
+    {
+      "code": "H9",
+      "desc": "Halt - Not Current",
+      "detail": "Trading is halted because the company is not current in its required filings."
+    },
+    {
+      "code": "H10",
+      "desc": "Halt - SEC Trading Suspension",
+      "detail": "The Securities and Exchange Commission has suspended trading in this stock."
+    },
+    {
+      "code": "H11",
+      "desc": "Halt - Regulatory Concern",
+      "detail": "Trading is halted in conjunction with another exchange or market for regulatory reasons."
+    },
+    {
+      "code": "O1",
+      "desc": "Operations Halt, Contact Market Operations",
+      "detail": ""
+    },
+    {
+      "code": "IPO1",
+      "desc": "IPO Issue not yet Trading",
+      "detail": ""
+    },
+    {
+      "code": "M1",
+      "desc": "Corporate Action",
+      "detail": ""
+    },
+    {
+      "code": "M2",
+      "desc": "Quotation Not Available",
+      "detail": ""
+    },
+    {
+      "code": "LUDP",
+      "desc": "Volatility Trading Pause",
+      "detail": ""
+    },
+    {
+      "code": "LUDS",
+      "desc": "Volatility Trading Pause - Straddle Condition",
+      "detail": ""
+    },
+    {
+      "code": "MWC1",
+      "desc": "Market Wide Circuit Breaker Halt - Level 1",
+      "detail": ""
+    },
+    {
+      "code": "MWC2",
+      "desc": "Market Wide Circuit Breaker Halt - Level 2",
+      "detail": ""
+    },
+    {
+      "code": "MWC3",
+      "desc": "Market Wide Circuit Breaker Halt - Level 3",
+      "detail": ""
+    },
+    {
+      "code": "MWC0",
+      "desc": "Market Wide Circuit Breaker Halt - Carry over from previous day",
+      "detail": ""
+    },
+    {
+      "code": "T3",
+      "desc": "News and Resumption Times",
+      "detail": "The news has been fully disseminated through a Regulation FD compliant method(s); or NASDAQ has determined either that system misuse or malfunction that caused extraordinary market activity will no longer have a material effect on the market for the security or that system misuse or malfunction is not the cause of the extraordinary market activity; or NASDAQ has determined the conditions which led to a halt in an Exchange-Traded Fund are no longer present. Two times will be displayed: (1) the time when market participants can enter quotations, followed by (2) the time the security will be released for trading. All trade halt and resumption times will be posted in HH:MM:SS format."
+    },
+    {
+      "code": "T7",
+      "desc": "Single Stock Trading Pause/Quotation-Only Period",
+      "detail": "Quotations have resumed for affected security, but trading remains paused."
+    },
+    {
+      "code": "R4",
+      "desc": "Qualifications Issues Reviewed/Resolved; Quotations/Trading to Resume",
+      "detail": ""
+    },
+    {
+      "code": "R9",
+      "desc": "Filing Requirements Satisfied/Resolved; Quotations/Trading To Resume",
+      "detail": ""
+    },
+    {
+      "code": "C3",
+      "desc": "Issuer News Not Forthcoming; Quotations/Trading To Resume",
+      "detail": ""
+    },
+    {
+      "code": "C4",
+      "desc": "Qualifications Halt ended; maint. req. met; Resume",
+      "detail": ""
+    },
+    {
+      "code": "C9",
+      "desc": "Qualifications Halt Concluded; Filings Met; Quotes/Trades To Resume",
+      "detail": ""
+    },
+    {
+      "code": "C11",
+      "desc": "Trade Halt Concluded By Other Regulatory Auth,; Quotes/Trades Resume",
+      "detail": ""
+    },
+    {
+      "code": "R1",
+      "desc": "New Issue Available",
+      "detail": ""
+    },
+    {
+      "code": "R2",
+      "desc": "Issue Available",
+      "detail": ""
+    },
+    {
+      "code": "IPOQ",
+      "desc": "IPO security released for quotation",
+      "detail": ""
+    },
+    {
+      "code": "IPOE",
+      "desc": "IPO security - positioning window extension",
+      "detail": ""
+    },
+    {
+      "code": "MWCQ",
+      "desc": "Market Wide Circuit Breaker Resumption",
+      "detail": ""
+    },
+    {
+      "code": "M",
+      "desc": "Volatility Trading Pause",
+      "detail": "Trading has been paused in an Exchange-Listed issue (Market Category Code = C)"
+    },
+    {
+      "code": "D",
+      "desc": "Security deletion from NASDAQ / CQS",
+      "detail": ""
+    },
+    {
+      "code": "Space",
+      "desc": "Reason Not Available",
+      "detail": ""
+    }
+  ]
+}
+
